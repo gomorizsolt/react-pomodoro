@@ -79,7 +79,7 @@ const reducer = (state: State, action: Action): State => {
     case "decrease-session": {
       const minutes = Math.floor(state.timeLeft / 60);
 
-      if (minutes >= 50) {
+      if (minutes >= 25) {
         return {
           ...state,
           timeLeft: state.timeLeft - BASE_POMODORO_MINUTES * 60,
@@ -170,7 +170,7 @@ const Pomodoro: React.FC = () => {
         <Button
           title="Decrease the pomodoro with 25 minutes"
           onClick={decreasePomodoro}
-          disabled={Number(minutes) < 50}
+          disabled={Number(minutes) < 25}
         >
           <FiMinus />
         </Button>
