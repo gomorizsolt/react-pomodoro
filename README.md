@@ -1,5 +1,7 @@
 # React Pomodoro
 
+![Deploy to GitHub Pages](https://github.com/gomorizsolt/react-pomodoro/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+
 Pomodoro React application, bootstrapped with CRA + TypeScript and styled with TailwindCSS.
 
 ## Demo
