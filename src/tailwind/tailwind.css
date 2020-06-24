@@ -1,0 +1,65 @@
+@tailwind base;
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("../resources/fonts/Orbitron/Orbitron-Medium.woff2") format("woff2"),
+    url("../resources/fonts/Orbitron/Orbitron-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("../resources/fonts/Orbitron/Orbitron-Black.woff2") format("woff2"),
+    url("../resources/fonts/Orbitron/Orbitron-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("../resources/fonts/Orbitron/Orbitron-ExtraBold.woff2")
+      format("woff2"),
+    url("../resources/fonts/Orbitron/Orbitron-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("../resources/fonts/Orbitron/Orbitron-Regular.woff2") format("woff2"),
+    url("../resources/fonts/Orbitron/Orbitron-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("../resources/fonts/Orbitron/Orbitron-Bold.woff2") format("woff2"),
+    url("../resources/fonts/Orbitron/Orbitron-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url("../resources/fonts/Orbitron/Orbitron-SemiBold.woff2")
+      format("woff2"),
+    url("../resources/fonts/Orbitron/Orbitron-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  @apply bg-orange-300;
+  font-family: "Orbitron", "sans-serif";
+}
+
+@tailwind components;
+@tailwind utilities;

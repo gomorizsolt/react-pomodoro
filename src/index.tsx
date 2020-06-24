@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import Pomodoro from "./Pomodoro";
+import * as serviceWorker from "./serviceWorker";
+import "./tailwind/tailwind.generated.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Pomodoro />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
